@@ -11,6 +11,8 @@ it stays fast and uncluttered however big it grows.
 You're the architect, asking the questions and deciding what matters. Claude does the reading, linking,
 and filing. Good for studying, research, or any work where you want your agent to remember.
 
+*Sharing this with a colleague? A one-page overview to hand on is in [docs/QUICKSTART.md](docs/QUICKSTART.md).*
+
 ## Start
 
 **What you need:** Claude Code (the agent, a Claude subscription) and Obsidian (the viewer, free). New to
