@@ -25,7 +25,7 @@ Pick the line that matches what you already have, then do "The setup" below.
 ### The setup (same for everyone)
 
 1. Open Claude Code. Paste this and say **"set up my second brain"**:
-   `https://github.com/Krishna-kai/claude-second-brain`
+   `https://github.com/Krishna-kai/claude-skills-second-brain`
    Claude clones it (or builds it for you) and tells you it is ready. There is nothing to configure.
 2. Open that same folder in Obsidian: **File -> Open folder as vault**, and pick it. Now you can browse your
    wiki, follow links, and see the graph.
@@ -44,6 +44,6 @@ That is it. Claude works the brain; you watch it grow in Obsidian.
 ## Later: deeper web search (optional)
 
 The `research` and `deep-search` skills work out of the box with Claude's built-in web search. If you want
-deeper, multi-source research, you can add a search tool (Tavily has a free tier) as an MCP server, and run
-MCP tools in Docker. That is a separate, optional step covered in `skills/README.md`. You do not need it to
-start.
+deeper, multi-source research, you can add a free search tool (Tavily) through Docker's MCP hub, and
+`deep-search` will use it. That is a separate, optional step, with the full walkthrough and current
+free-tier facts in [`docs/deeper-search.md`](docs/deeper-search.md). You do not need it to start.
