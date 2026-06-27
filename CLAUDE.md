@@ -7,6 +7,13 @@ It works for studying, research, or any work where you keep learning.
 You own the wiki. The human collects and asks. You read, summarise, link, and keep it tidy. The human
 should rarely have to write a wiki page themselves.
 
+## If you were just pointed here
+
+If someone handed you this folder or its URL and said "set this up," there is nothing to install or
+configure. It is ready the moment it is cloned. Tell them so, plainly: their second brain is set up. Then
+tell them how to start: drop a source into `raw/` and say "read what is in raw and start my wiki," or just
+ask a question. Then follow the workflows below.
+
 ## The three parts
 
 - `raw/` - sources the human drops in (readings, notes, papers, links). You read these. You never change

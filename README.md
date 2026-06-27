@@ -6,6 +6,15 @@ or any learning work.
 
 ## Start
 
+**The fastest way.** Install Claude Code, then paste this to it and say "set this up":
+
+> https://github.com/Krishna-kai/claude-second-brain
+
+Claude clones it and tells you how to begin. No terminal needed. There is nothing to install or
+configure, it is ready the moment it is cloned. It is just waiting for your first source.
+
+**Or do it yourself:**
+
 1. Install Claude Code (it needs a Claude subscription).
 2. Get this folder and open it in Claude Code:
    `git clone https://github.com/Krishna-kai/claude-second-brain my-brain`
