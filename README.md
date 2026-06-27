@@ -20,7 +20,7 @@ In Claude Code, paste this and say **"set up my second brain"**:
 
 > https://github.com/Krishna-kai/claude-skills-second-brain
 
-Claude does the rest: it clones the kit into your folder and tells you it's ready. Nothing to configure.
+Claude does the rest: it runs the clone command below, then tells you it's ready. Nothing to configure.
 
 > **If you're the Claude agent reading this:** the user wants their second brain set up. Your first action
 > is to run exactly this in their current folder:
