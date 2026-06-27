@@ -16,7 +16,9 @@ rather than leaning on one generic search.
 2. **Look local first.** Read `wiki/index.md` and open any pages on the topic. Note what the brain already
    holds and what is missing. Do not re-search what you already know.
 3. **Search wide.** Run each angle through your web search. If a search MCP is set up (Tavily or similar,
-   see `skills/README.md`), use it as well for fresher, deeper coverage. Pull from several sources.
+   see `skills/README.md`), use it as well for fresher, deeper coverage; if its tools are not visible in
+   your tool list, check your tool registry and load them before deciding none is set up. Pull from several
+   sources.
 4. **Check freshness and agreement.** Prefer recent, primary, and reputable sources. Note where sources
    disagree or where information looks dated. Say how current your answer is.
 5. **Synthesise and save.** Write the findings into the wiki as a page, linked with `[[...]]`, every source
