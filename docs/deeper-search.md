@@ -1,25 +1,24 @@
 # Deeper search with Docker and MCP (optional)
 
-Your `research` and `deep-search` skills already work with Claude's built-in web search. **You do not need
+Your `research` and `deep-search` skills already work with Claude's built-in web search. **You don't need
 anything on this page to start.** This is the optional upgrade: give Claude a dedicated search tool so its
 research goes deeper and stays current. You set it up once, and the `deep-search` skill already knows to use
-it when it is there.
+it when it's there.
 
 ## The idea: Docker as the hub for tools
 
 MCP (the Model Context Protocol) is how Claude uses outside tools, like a web-search service. You could wire
 each tool up by hand, but that means installing runtimes and pasting keys into config files.
 
-Docker's **MCP Toolkit** is the easier way: a hub. It is a catalog of ready-made tools, each one running in
+Docker's **MCP Toolkit** is the easier way: a hub. It's a catalog of ready-made tools, each one running in
 its own small container, that you switch on and connect to Claude in a couple of clicks. Add a tool to the
-hub, and Claude can use it. That is the "Docker hub" for your second brain: the place its tools live.
+hub, and Claude can use it. That's the "Docker hub" for your second brain: the place its tools live.
 
 ## What you need
 
 - **Docker Desktop** (free for personal use). https://www.docker.com
 - **Claude Code** (you already have it).
-- **A free search API key.** Tavily is the pick: **1,000 searches a month, free, no credit card**, and the
-  count resets on the 1st. **Students get 4 months of 4,000 a month free.** https://tavily.com
+- **A free search API key.** Tavily is the pick. Per its own [credit docs](https://docs.tavily.com/documentation/api-credits): 1,000 searches a month, free, with no credit card, and 4,000 a month for 4 months if you're a student. Sign up at [tavily.com](https://tavily.com).
   - Why Tavily and not the others: Microsoft retired the Bing Search API in August 2025, and Brave dropped
     its free tier in 2026 (it now needs a card). Tavily is the simplest genuinely-free option today.
 
@@ -35,7 +34,7 @@ The shape of it:
 1. Install Docker Desktop and open it. Turn on the **MCP Toolkit** (in Settings, under beta features).
 2. In the MCP Toolkit **Catalog**, find **Tavily**, add it, and paste your free Tavily key when asked.
 3. **Connect Claude Code.** Docker Desktop has a one-click "Connect" for Claude Code; it writes an
-   `.mcp.json` in your folder that points Claude at the Docker MCP gateway. (There is a command-line way too,
+   `.mcp.json` in your folder that points Claude at the Docker MCP gateway. (There's a command-line way too,
    in the guide.)
 4. **Restart Claude Code**, then type `/mcp`. You should see the Docker gateway listed; its tools show up
    under the name `MCP_DOCKER`.
@@ -52,7 +51,7 @@ fresher, deeper results, then saves the findings to your wiki with sources, exac
 
 ## If you would rather not
 
-You do not have to do any of this. Built-in search is enough to begin with, and every part of the kit works
+You don't have to do any of this. Built-in search is enough to begin with, and every part of the kit works
 without it. Add the hub only when you want your research to go deeper.
 
 ---
