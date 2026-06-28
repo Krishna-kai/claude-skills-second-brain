@@ -26,12 +26,12 @@ Claude can't install these for you. Everything after this, it does.
 ## Set up (about five minutes)
 
 1. Install Claude Code and Obsidian.
-2. Make a new, empty folder for your brain and open Claude Code in it.
-3. Paste this and say **"set up my second brain"**:
+2. Open Claude Code, paste this, and say **"set up my second brain"**:
    `https://github.com/Krishna-kai/claude-skills-second-brain`
-   Claude clones the kit into your folder and confirms it's ready. Nothing to configure.
-4. Open that same folder in Obsidian: **File -> Open folder as vault**. Now you can browse it and see the graph.
-5. Drop a source into `raw/` and say **"read what's in raw and start my wiki."** Or just ask a question.
+   Claude sets it up and tells you which folder your brain is in. Nothing to configure, and no folder to make
+   first.
+3. Open that folder in Obsidian: **File -> Open folder as vault**. Now you can browse it and see the graph.
+4. Drop a source into `raw/` and say **"read what's in raw and start my wiki."** Or just ask a question.
 
 ## What it does for your work
 

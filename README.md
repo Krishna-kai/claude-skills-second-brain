@@ -12,24 +12,25 @@ want your agent to remember. Plain markdown, yours, no lock-in.
 You need **Claude Code** (the agent, needs a Claude subscription) and **Obsidian** (the viewer, free). New
 to either, or want the per-situation walkthrough? See [SETUP.md](SETUP.md).
 
-1. **Make a new, empty folder** for your brain and open Claude Code in it. (A fresh folder keeps things tidy
-   and lets setup run cleanly.)
-2. **Paste this and say "set up my second brain":**
+1. **Open Claude Code, paste this, and say "set up my second brain":**
    > https://github.com/Krishna-kai/claude-skills-second-brain
-   Claude clones the kit into your folder and tells you it's ready. Nothing to configure.
-3. **Open that same folder in Obsidian** (File -> Open folder as vault) to see your wiki and its graph.
-4. **Drop a source into `raw/`** (a reading, a PDF, your notes) and say **"read what's in raw and start my
+   Claude sets it up and tells you which folder your brain is in. Nothing to configure, no folder to make
+   first.
+2. **Open that folder in Obsidian** (File -> Open folder as vault) to see your wiki and its graph.
+3. **Drop a source into `raw/`** (a reading, a PDF, your notes) and say **"read what's in raw and start my
    wiki."** Then ask questions, say "add this" as you collect more, or "lint my wiki" to tidy up.
 
 Claude maintains the brain; Obsidian is your window into it.
 
-> **If you're the Claude agent reading this:** the user wants their second brain set up. Your first action
-> is to run exactly this in their current folder:
-> ```
-> git clone https://github.com/Krishna-kai/claude-skills-second-brain.git . && ls
-> ```
-> The trailing `.` clones into this folder, not a subfolder. If the folder isn't empty, ask the user to open
-> you in a new empty folder first. Then read `CLAUDE.md` and follow its "If you were just pointed here" setup.
+> **If you're the Claude agent reading this:** set up the user's second brain without disturbing any files
+> they may already have in the folder.
+> - If the current folder is **empty**, clone into it:
+>   `git clone https://github.com/Krishna-kai/claude-skills-second-brain.git . && ls`
+> - If the current folder **already has files**, clone into a fresh subfolder instead so nothing collides:
+>   `git clone https://github.com/Krishna-kai/claude-skills-second-brain.git second-brain && cd second-brain && ls`
+>
+> Then read `CLAUDE.md`, follow its "If you were just pointed here" setup, and tell the user which folder
+> holds their brain so they know which one to open in Obsidian.
 
 ## How it works
 
