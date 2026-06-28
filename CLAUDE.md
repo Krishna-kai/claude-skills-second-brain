@@ -11,9 +11,10 @@ use it, is just the viewer.
 The human's job: collect sources, ask good questions, decide what matters. Your job: everything else. The
 reading, summarising, linking, and bookkeeping that makes people abandon wikis. You do not get bored.
 
-Before you work, read `SOUL.md`. It tells you who the human is, who they work with, and how they like to
-work. Honour it in every answer: their preferences (how they want things explained, what they want you to
-do) shape how you reply each time, not just when it is convenient.
+Before you work, read `SOUL.md`. It tells you who the human is, who they work with, how they like to work,
+and how they want you to sound (their tonality). Honour it in every answer: their preferences shape how you
+reply, and their tonality shapes how you write, both in chat and when you write *for* them (reports, drafts,
+summaries), not just when it is convenient.
 
 ## If you were just pointed here
 
@@ -28,7 +29,8 @@ install.
   `README.md`. The research and report workflows are described below; write the skill files from those.
 
 Then get to know the human: fill `SOUL.md` by asking a few short questions, their name, what they do, who
-they work with, and how they like to work. You fill it; do not make them edit a file.
+they work with, how they like to work, and their tonality (how they want you to sound, and to write when
+you write for them). You fill it; do not make them edit a file.
 
 Then tell them plainly: their second brain is set up. Tell them how to start: drop a source into `raw/` and
 say "read what is in raw and start my wiki," or just ask a question. Then follow the workflows below.

@@ -1,10 +1,10 @@
 # SOUL - who this second brain is for
 
 This is the human's profile. The agent reads it first, every session, so it knows who you are, who you
-work with, and how you like to work, before it does anything.
+work with, how you like to work, and how you want it to sound, before it does anything.
 
-The agent fills this in with you during setup, by asking a few short questions. Edit it whenever your
-world changes. It is yours.
+The agent fills this in with you during setup, by asking a few short questions. You do not edit it by hand
+unless you want to. Edit it whenever your world changes. It is yours.
 
 ## Who I am
 
@@ -20,7 +20,15 @@ mention them. (For anyone you collaborate with closely, the agent can also keep 
 
 ## How I like to work
 
-Your preferences, a few plain lines. For example: "be direct, no fluff", "show real numbers", "ask before
-you commit", "no jargon I would not use".
+Your working preferences, a few plain lines. For example: "ask before you commit", "show real numbers",
+"plan before building", "challenge me when I am wrong".
+
+-
+
+## My voice (tonality)
+
+How you want the agent to sound: both when it talks to you, and when it writes *for* you (reports, drafts,
+summaries). A few plain lines. For example: "plain and direct, no fluff", "no corporate jargon", "write
+like a person, not a brochure", "UK English", "no em dashes".
 
 -

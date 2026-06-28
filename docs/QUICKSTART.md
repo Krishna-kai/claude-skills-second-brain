@@ -41,9 +41,10 @@ Claude can't install these for you. Everything after this, it does.
   they compound instead of vanishing into chat.
 - **Research and deep-search.** A thorough, current, multi-source sweep on a topic, saved into your wiki with
   every source cited and dated. Works for any field.
-- **Report.** Turns what's in your brain into a clear, sourced write-up you can hand on.
-- **Remembers your world.** A short profile (`SOUL.md`) holds who you are, who you work with, and how you
-  like to work, so it's useful from the first session.
+- **Report.** Turns what's in your brain into a clear, sourced write-up you can hand on, in your own voice.
+- **Remembers your world.** At setup, Claude interviews you and fills a short profile (`SOUL.md`): who you
+  are, who you work with, how you like to work, and your tonality (how you want it to sound). It reads that
+  before every answer, so it fits you from the first session.
 - **Your own skills.** Use the built-in workflows, or say "make me a skill that does X" and it writes one.
 - **Stays fast as it grows.** A small loading contract (`CLOTH.md`) means Claude reads only what a task
   needs, so a brain of a thousand pages costs the same attention as one of ten.

@@ -13,7 +13,8 @@ Use this when the human asks for a report, a summary write-up, an essay outline,
    - The main findings, in order, each in plain language.
    - The evidence, with sources cited (wiki pages and any web links).
    - A short conclusion.
-3. **Write it plainly.** Short sentences. No filler. Match the human's voice if they have told you one.
+3. **Write it in their voice.** Use the human's tonality from the "My voice" section of `SOUL.md`, so the
+   report sounds like them, not like a generic AI. Short sentences, no filler.
 4. **Save it.** Write it to a file (for example `wiki/reports/<topic>.md`) and cite the wiki pages it drew
    from. Then follow the saving rule in `CLAUDE.md`: add it to `wiki/index.md`, add a `log.md` line, and
    link it from at least one page it came from (for example a "Reports" or "See also" line on the topic's

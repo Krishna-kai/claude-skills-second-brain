@@ -32,14 +32,31 @@ Claude maintains the brain; Obsidian is your window into it.
 > Then read `CLAUDE.md`, follow its "If you were just pointed here" setup, and tell the user which folder
 > holds their brain so they know which one to open in Obsidian.
 
-## How it works
-
-It's skills-first. Use Claude's built-in skills, or build your own with `skill-creator`. A small contract,
-`CLOTH.md`, means Claude loads only the one skill and the few pages a task needs, never the whole brain, so
-it stays fast and uncluttered however big it grows.
+## What's inside, and how it fits together
 
 You're the architect, asking the questions and deciding what matters. Claude does the reading, linking, and
-filing, the part that makes people abandon their notes.
+filing, the part that makes people abandon their notes. When Claude sets up your brain, you get a handful of
+plain files:
+
+- **`SOUL.md` - who you are.** At setup, Claude asks you a few short questions: your name, what you do, who
+  you work with, how you like to work, and your **tonality** (how you want Claude to sound, and to write when
+  it writes for you). Claude fills it in for you, and reads it before every answer, so the brain fits you
+  from day one. Edit it anytime.
+- **`raw/` - your sources.** Drop readings, PDFs, and notes here. Claude reads them and never changes them.
+- **`wiki/` - your brain.** The linked notes Claude writes from your sources, with `wiki/index.md` as the
+  catalog of everything in it.
+- **`skills/` - the workflows.** Named jobs you trigger by asking: `research` (investigate a topic and save
+  it with sources), `deep-search` (a current, multi-source sweep), `report` (turn your brain into a sourced
+  write-up, in your tonality), and `skill-creator` (build your own). More on these in
+  [skills/README.md](skills/README.md).
+- **`CLAUDE.md` and `CLOTH.md` - the rules.** `CLAUDE.md` is the schema that makes Claude a disciplined
+  brain-keeper. `CLOTH.md` keeps it fast by loading only what a task needs, never the whole brain, however
+  big it grows. You do not edit these.
+
+**How they connect:** you drop sources into `raw/`; Claude reads them and writes linked pages into `wiki/`,
+following the rules in `CLAUDE.md` and your profile in `SOUL.md`; `CLOTH.md` keeps it fast as it grows; the
+skills are the workflows you trigger; and when Claude writes for you, it does it in your tonality from
+`SOUL.md`. You collect and ask; Claude reads, links, and remembers.
 
 ## Credit
 
