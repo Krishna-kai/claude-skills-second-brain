@@ -58,6 +58,27 @@ following the rules in `CLAUDE.md` and your profile in `SOUL.md`; `CLOTH.md` kee
 skills are the workflows you trigger; and when Claude writes for you, it does it in your tonality from
 `SOUL.md`. You collect and ask; Claude reads, links, and remembers.
 
+At a glance:
+
+```mermaid
+flowchart TD
+    you(["You: collect sources, ask questions"])
+    raw["raw/<br/>your sources"]
+    wiki["wiki/<br/>your brain: linked notes and an index"]
+    skills["skills/<br/>research, deep-search, report, skill-creator"]
+    soul["SOUL.md<br/>who you are, and your tonality"]
+    rules["CLAUDE.md and CLOTH.md<br/>the rules, and staying fast"]
+
+    you -->|drop sources| raw
+    raw -->|Claude reads and writes| wiki
+    you -->|ask or run a skill| skills
+    skills -->|write back into| wiki
+    wiki -->|answers and reports in your voice| you
+    soul -.->|shapes every answer| wiki
+    soul -.->|your tonality| skills
+    rules -.->|govern how Claude writes| wiki
+```
+
 ## Credit
 
 We didn't invent this. We borrowed brilliance from the open source community and built on it.
